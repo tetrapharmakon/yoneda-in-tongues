@@ -9,4 +9,4 @@ Some simple rules:
 * Provide references for technical words (what is the right translation for "functor" in Quenya?), and propose, propose, propose.
 * Unusual language are more than welcome (Ithkuil anybody?)
 * The project uses XeLaTeX; the mainfont is Quivira (http://www.quivira-font.com/); keep the latest version in the fonts/ folder!
-* You know Xhosa, nice to know. But maybe somebody around you can provide another translation. Cooperate. Discuss. Re-read already what is written.
+* You speak Xhosa, nice to know. But maybe somebody around you can provide another translation. Cooperate. Discuss. Re-read what is already written.
