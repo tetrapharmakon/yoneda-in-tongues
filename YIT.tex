@@ -7,7 +7,8 @@
 \def\faire{\todo[inline]{TODO!}}
 
 \newcommand{\tran}[3]{%
-	\textsf{#1:} (#2). #3%
+	\noindent\textsf{#1:} (#2). #3%
+	\medskip\newline
 }
 % easy as pie:
 % #1: name of the language
@@ -26,5 +27,25 @@ in every language
 \section{Yoneda lemma}
 \faire
 
-\tran{Simple English}{Yoneda lemma}{\dots}
+% \tran{Simple English}{Yoneda lemma}{\dots}
+\tran{{\L}engua vèneta (ISO 639-3 vec)}{El lema de Yoneda}{
+	Toì na categoria pìco{\l}a $\mathcal C$ e un fontor $F$ de sta categoria `nte la categoria dei insièmi. Al\'ora, comunque che se toga n'ogeto $X$ de $\mathcal C$ gh'è n'isomorfismo (naturae ent'el sò argomento) tra l'insième dee trasforma{\ss}ioni naturai $\hom(-,X)\to F$ e l'insième $FX$, fisà de la rego{\l}a 
+	\[
+	\Big(\xi : \hom(-,X)\Rightarrow F\Big) \mapsto \xi_X(1_X)	
+	\]
+	(sta fonsion ea xe bijetiva).
+}
+\tran{Sicilianu (ISO 639-3 scn)}{Lemma ri Yuneda}{
+	Aviss'a pigghiari na categuria $\mathcal C$, e un funturi $F$ ri sta categuria rint'agl'insèmi. Pi tutti l'oggetti $X$ ri $\mathcal C$, avimu na biggezione naturale 'nta l'insèmi ri tutte le trasformazioni naturali $\hom(-,X)\to F$ e l'insèmi $FX$, fissatu ri la reggola
+	\[
+		\Big(\xi : \hom(-,X)\Rightarrow F\Big) \mapsto \xi_X(1_X)	
+		\]
+		(ssa funzioni iè biggettiva).
+}
+\tran{Esperanto (ISO 639-3 epo)}{Lemo el Yoneda}{
+	Por \^{c}iuj kategorio $\mathcal C$ kaj functo $F$ de la kategorio $\mathcal C$ en la kategorio de aroj, kaj por \^{c}iuj objektoj $X$ el $\mathcal C$ estas reciproke unuvalora sur\^{j}eto inter la aro de naturaj transformoj $\hom(-,X)\to F$ kaj la aro $FX$, specifita de funkcio
+	\[
+		\Big(\xi : \hom(-,X)\Rightarrow F\Big) \mapsto \xi_X(1_X).
+		\]
+}
 \end{document}
