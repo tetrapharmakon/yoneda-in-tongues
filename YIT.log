@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.12.21)  20 MAY 2019 15:01
+=======
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.11.26)  22 MAY 2019 03:31
+>>>>>>> master
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -636,7 +640,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 [1
 
 ]
+<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 64--65
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 64--72
+>>>>>>> master
 
  []
 
@@ -646,12 +654,23 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  22256 strings out of 492933
  482034 string characters out of 6134416
  536020 words of memory out of 5000000
  26065 multiletter control sequences out of 15000+600000
+=======
+ 22257 strings out of 492956
+ 480968 string characters out of 6136893
+ 535671 words of memory out of 5000000
+ 26042 multiletter control sequences out of 15000+600000
+>>>>>>> master
  532402 words of font info for 32 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  55i,6n,80p,417b,759s stack positions out of 5000i,500n,10000p,200000b,80000s
 
+<<<<<<< HEAD
 Output written on YIT.xdv (2 pages, 27352 bytes).
+=======
+Output written on YIT.pdf (2 pages).
+>>>>>>> master
