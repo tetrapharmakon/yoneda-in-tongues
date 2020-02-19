@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.12.21)  22 MAY 2019 22:40
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.12.21)  16 SEP 2019 20:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -607,36 +607,59 @@ Package fontspec Info: Font family 'Quivira(0)' created for font 'Quivira'
 
 LaTeX Info: Redefining \rmfamily on input line 19.
 
+Package fontspec Info: Could not resolve font "linja pona 3/BI" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "linja pona 3/B" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "linja pona 3/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Font family 'linjapona3(0)' created for font 'linja
+(fontspec)             pona 3' with options [].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"linja pona
+(fontspec)             3/OT:script=latn;language=DFLT;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
 (./YIT.aux)
 \openout1 = `YIT.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
  ABD: EveryShipout initializing macros
 
 LaTeX Font Warning: Font shape `TU/Quivira(0)/bx/n' undefined
-(Font)              using `TU/Quivira(0)/m/n' instead on input line 25.
+(Font)              using `TU/Quivira(0)/m/n' instead on input line 26.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 37.
+(Font)              <7> on input line 38.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 37.
+(Font)              <5> on input line 38.
 [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 71--79
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
 
  []
 
@@ -646,12 +669,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 22256 strings out of 492933
- 482034 string characters out of 6134416
- 536020 words of memory out of 5000000
- 26065 multiletter control sequences out of 15000+600000
- 532402 words of font info for 32 fonts, out of 8000000 for 9000
+ 22275 strings out of 492933
+ 482406 string characters out of 6134416
+ 536368 words of memory out of 5000000
+ 26074 multiletter control sequences out of 15000+600000
+ 532426 words of font info for 35 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  55i,6n,80p,417b,759s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on YIT.xdv (2 pages, 30920 bytes).
+Output written on YIT.xdv (2 pages, 40404 bytes).
