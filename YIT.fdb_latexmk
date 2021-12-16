@@ -1,9 +1,9 @@
 # Fdb version 3
-["xdvipdfmx"] 1639075854 "YIT.xdv" "YIT.pdf" "YIT" 1639075854
-  "YIT.xdv" 1639075854 46408 a4d92a6309a58e573d1e3737e950c372 "xelatex"
+["xdvipdfmx"] 1639078099 "YIT.xdv" "YIT.pdf" "YIT" 1639078099
+  "YIT.xdv" 1639078099 44032 9a172c09e9f22cbe714e7c0bde4d118e "xelatex"
   (generated)
   "YIT.pdf"
-["xelatex"] 1639075853 "YIT.tex" "YIT.xdv" "YIT" 1639075854
+["xelatex"] 1639078098 "YIT.tex" "YIT.xdv" "YIT" 1639078099
   "/home/fouche/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex" 1601326656 992 855ff26741653ab54814101ca36e153c ""
   "/home/fouche/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex" 1601326656 43820 1fef971b75380574ab35a0d37fd92608 ""
   "/home/fouche/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex" 1601326656 19324 f4e4c6403dd0f1605fd20ed22fa79dea ""
@@ -102,9 +102,9 @@
   "/home/fouche/texlive/texmf-dist/web2c/texmf.cnf" 1598393674 39451 15a3ebee027466ecb89701aa91dfebaf ""
   "/home/fouche/texlive/texmf-var/web2c/xetex/xelatex.fmt" 1615033771 5276234 3432f6c9c070a03fb4456641e5bd39da ""
   "/home/fouche/texlive/texmf.cnf" 1594591852 496 01ab80fa0036a81d2df86fb0ac70c709 ""
-  "YIT.aux" 1639075854 470 b172c142d80f1a28545935299693665a "xelatex"
-  "YIT.tex" 1639075851 5621 605b3adea99571d57e69bc1e08532fae ""
+  "YIT.aux" 1639078099 470 b172c142d80f1a28545935299693665a "xelatex"
+  "YIT.tex" 1639078096 5727 b827bffcfa25ae53f6e790bd6600c6ca ""
   (generated)
+  "YIT.xdv"
   "YIT.log"
   "YIT.aux"
-  "YIT.xdv"
