@@ -7,7 +7,7 @@
 \def\faire{\todo[inline]{TODO!}}
 
 \newcommand{\tran}[3]{%
-	\noindent\textsf{#1:} (#2). #3%
+	\noindent\textbf{#1:} (#2). #3%
 	\medskip\newline
 }
 % easy as pie:
@@ -15,9 +15,22 @@
 % #2: Yoneda lemma in the language of #1
 % #3: statement of the lemma
 
-\setmainfont{Quivira.otf}
-\newfontfamily{\tp}{linja-pona-4.9.otf}
+\setmainfont{Quivira.otf}[Path=fonts/]
+\setsansfont{Quivira.otf}[Path=fonts/]
+\newfontfamily{\tp}{linja-pona-4.9.otf}[Path=fonts/]
+\newfontfamily{\jpfont}{Hiragino Mincho ProN}
+\newfontfamily{\zhfont}{Heiti SC}
+\newfontfamily{\kofont}{Apple SD Gothic Neo}
+\newfontfamily{\arfont}{Geeza Pro}
+\newfontfamily{\hefont}{Arial Hebrew}
+\newfontfamily{\hifont}{Devanagari MT}
+\newfontfamily{\thfont}{Ayuthaya}
+\newfontfamily{\kafont}{.SF Georgian}
 
+\newcommand{\cjkbreak}{\XeTeXlinebreaklocale "zh"\XeTeXlinebreakskip=0pt plus 1pt\XeTeXlinebreakpenalty=0 }
+\newcommand{\cjknobreak}{\XeTeXlinebreaklocale ""}
+
+\emergencystretch=3em
 \begin{document}
 \begin{center}
 Yoneda lemma \\
@@ -28,85 +41,176 @@ in every language
 \section{Yoneda lemma}
 \faire
 
-% \tran{Simple English}{Yoneda lemma}{\dots}
-\tran{{\L}engua vèneta (ISO 639-3 vec)}{El lema de Yoneda}{
-	Toì na categoria pìco{\l}a $\mathcal C$ e un fontor $F$ de sta categoria `nte la categoria dei insièmi. Al\'ora, comunque che se toga n'ogeto $X$ de $\mathcal C$ gh'è n'isomorfismo (naturae ent'el sò argomento) tra l'insième dee trasforma{\ss}ioni naturai $\hom(-,X)\Rightarrow F$ e l'insième $FX$, fisà de la rego{\l}a
-	\[
-	\Big(\xi : \hom(-,X)\Rightarrow F\Big) \mapsto \xi_X(1_X)
-	\]
-	(sta fonsion ea xe bijetiva).
-}
-\tran{Sicilianu (ISO 639-3 scn)}{Lemma ri Yuneda}{
-	Aviss'a pigghiari na categuria $\mathcal C$, e un funturi $F$ ri sta categuria rint'agl'insèmi. Pi tutti l'oggetti $X$ ri $\mathcal C$, avimu na biggezione naturale 'nta l'insèmi ri tutte le trasformazioni naturali $\hom(-,X)\Rightarrow F$ e l'insèmi $FX$, fissatu ri la reggola
-	\[
-		\Big(\xi : \hom(-,X)\Rightarrow F\Big) \mapsto \xi_X(1_X)
-	\]
-	(ssa funzioni iè biggettiva).
-}
-\tran{Esperanto (ISO 639-3 epo)}{Lemo el Yoneda}{
-	Por \^{c}iuj kategorio $\mathcal C$ kaj functo $F$ de la kategorio $\mathcal C$ en la kategorio de aroj, kaj por \^{c}iuj objektoj $X$ el $\mathcal C$ estas reciproke unuvalora sur\^{j}eto inter la aro de naturaj transformoj $\hom(-,X)\Rightarrow F$ kaj la aro $FX$, specifita de funkcio
-	\[
-		\Big(\xi : \hom(-,X)\Rightarrow F\Big) \mapsto \xi_X(1_X).
-	\]
-}
-\tran{Zenéise (ISO 639-3 lij)}{Lémma de Yoneda}{
-	Segge $\mathcal C$ una categuia picenina e $F$ ün funtu' da sta categuia in ta' categuia di insiemmi. Al\^{o}a pe tutte e cose $X$ in $\mathcal C$ gh'è üna biiessiun naturale tra l'insiemme de trasfurmasiun naturali $\hom(-,X)\Rightarrow F$ e l'insiemme $FX$, fisa da-a regula
-    \[
-		\Big(\xi : \hom(-,X)\Rightarrow F\Big) \mapsto \xi_X(1_X).
-	\]
-    (sta fonçiún a l'è biiettiva).
-}
-\tran{Napulitane (ISO 639-3 nap)}{Lemma e' Yoneda}{
-	Piʝətə $\mathcal C$ 'na categuriə piccerella e $F$ 'nu funtorə partenn a' chesta categuriə inte agl'insiemə. Allor pe' tutti quanti l'oggetti $X$ e' $\mathcal C$ ce' sta 'na funzionə ca po' turnà arrete partenn a' l'insiemə de' trashformazionə naturalə $\hom(-,X)\Rightarrow F$ e l'insiemə $FX$ fissat da' regula
-	\[
-		\Big(\xi : \hom(-,X)\Rightarrow F\Big) \mapsto \xi_X(1_X).
-	\]
-  (chesta funzionə po' turnà arrete).
-}
-\tran{Français (ISO 639-3 fra)}{Lemme de Yoneda}{
-	Soit $\mathcal C$ une catégorie petite et $F$ un foncteur de cette catégorie dans la catégorie des ensembles. Alors, pour tous les objets $X$ de $\mathcal C$ on a une bijection naturelle entre l'ensemble des trasformations naturelles $\hom(-,X)\Rightarrow F$ et l'ensemble $FX$, e cet isomorphisme est spécifié par la règle
-	\[
-		\Big(\xi : \hom(-,X)\Rightarrow F\Big) \mapsto \xi_X(1_X)
-	\]
-	(cette fonction est bijective).
-}
-\tran{English (ISO 639-3 eng)}{Yoneda lemma}{
-Let $\mathcal C$ be a small category, and $F$ a functor from this category to the category of sets. Then, for every object $X$ of $\mathcal C$ there is a natural bijection between the set of natural transformations $\hom(-,X)\Rightarrow F$ and the set $FX$, and this isomorphism is defined by the correspondence
-\[
-	\Big(\xi : \hom(-,X)\Rightarrow F\Big) \mapsto \xi_X(1_X)
-\]
-(this function is bijective).
-}
-% \tran{Suomi (ISO 639-3 fin)}{Yoneda'n Lemma}{
-% 	Anna olla joku pieni kategoria $\mathcal C$ ja funktori $F$ täältä kategorialta joukkojen kategoriassa. Joten jokaille alkiolle $X$ $\mathcal C$:ssä on luonteva bijektio luonnevan muunnoksen joukosta $\hom(-,X)\Rightarrow F$ [...]
-% 	\[
-% 		\Big(\xi : \hom(-,X)\Rightarrow F\Big) \mapsto \xi_X(1_X)
-% 	\]
-% 	(tämä funktio on bijektiivinen).
-% }
-\tran{toki pona (ISO 639-2 art)}{sona lili Joneta}{$\mathcal K$ li kulupu lili. $P$ li linja kulupu. $P$ li kama tan kulupu $\mathcal K$ li tawa kulupu pi kulupu ijo. $A$ li ijo lon kulupu $\mathcal K$, la kulupu ijo $\hom(-,A) \Rightarrow P$ pi linja pi linja kulupu li sama e ijo $PA$. sama tan
-\[
-	\Big(\xi : \hom(-,A)\Rightarrow P\Big) \mapsto \xi_A(1_A).
-\]
-ni li linja sama.}
-\tran{{\tp toki-pona} (ISO 639-2 art)}{{\tp sona lili [jo nena tawa]}}{{\tp $\mathcal K$ li kulupu lili. $P$ li linja kulupu. $P$ li kama tan kulupu $\mathcal K$ li tawa kulupu pi kulupu ijo. $A$ li ijo lon kulupu $\mathcal K$, la kulupu ijo $\hom(-,A) \Rightarrow P$ pi linja pi linja kulupu li sama e ijo $PA$. sama tan
-\[
-	\Big(\xi : \hom(-,A)\Rightarrow P\Big) \mapsto \xi_A(1_A).
-\]
-ni li linja sama.}}
-\tran{Latin (ISO 639-2 lat)}{Lemma Yoned\ae}{
-	Sint $\mathcal C$ categoria parva et $F$ functor ab $\mathcal C$ ad categoria totos; tum omne obiecto $X$ in $\mathcal C$ naturalis invertibilis congruentia intra totum naturalium transformationum $\hom(-,X)\Rightarrow F$ totumque $FX$ exstat.
+%%% Indo-European: Italic / Romance
+\input{src/lat}
+\input{src/ita}
+\input{src/fra}
+\input{src/spa}
+\input{src/por}
+\input{src/cat}
+\input{src/glg}
+\input{src/oci}
+\input{src/ron}
+\input{src/vec}
+\input{src/scn}
+\input{src/lij}
+\input{src/nap}
+\input{src/srd}
+\input{src/cos}
+\input{src/arg}
+\input{src/ast}
+\input{src/pms}
+\input{src/fur}
+\input{src/roh}
+\input{src/wln}
+\input{src/lad}
 
-	Enim definitum est telum
-\[
-	\Big(\xi : \hom(-,X)\Rightarrow F\Big) \mapsto \xi_X(1_X)
-\]
-qui inversionem habet.
-}
-\tran{Estonian (ISO 639-2 est)}{Yoneda Lemma}{
-	Olgu väike kategooria $\mathcal C$ ja olgu funktor $F$ sellest kategooriast hulkade kategooria jaoks. Siis iga objekti $X$ jaoks kategooriast $\mathcal C$ leidub loomulik bijektsioon loomulike transformatsioonide $\hom(-,X)\Rightarrow F$ hulga ja hulga $FX$ vahel, ja see isomordism on defineeritud vastavusega
-	\[
-	\Big(\xi : \hom(-,X)\Rightarrow F\Big) \mapsto \xi_X(1_X)
-\]
-}
+%%% Indo-European: Germanic
+\input{src/eng}
+\input{src/sco}
+\input{src/deu}
+\input{src/ltz}
+\input{src/nds}
+\input{src/nld}
+\input{src/afr}
+\input{src/fry}
+\input{src/swe}
+\input{src/nob}
+\input{src/dan}
+\input{src/isl}
+\input{src/fao}
+\input{src/ang}
+\input{src/non}
+\input{src/got}
+
+%%% Indo-European: Celtic
+\input{src/gle}
+\input{src/gla}
+\input{src/cym}
+\input{src/bre}
+
+%%% Indo-European: Slavic
+\input{src/rus}
+\input{src/ukr}
+\input{src/bel}
+\input{src/pol}
+\input{src/ces}
+\input{src/slk}
+\input{src/hsb}
+\input{src/csb}
+\input{src/slv}
+\input{src/hrv}
+\input{src/srp}
+\input{src/bul}
+\input{src/mkd}
+
+%%% Indo-European: Baltic
+\input{src/lit}
+\input{src/lav}
+
+%%% Indo-European: Hellenic
+\input{src/ell}
+\input{src/grc}
+
+%%% Indo-European: Albanian
+\input{src/sqi}
+
+%%% Indo-European: Indo-Iranian
+\input{src/hin}
+\input{src/san}
+\input{src/fas}
+\input{src/tgk}
+
+%%% Uralic
+\input{src/fin}
+\input{src/est}
+\input{src/hun}
+
+%%% Turkic
+\input{src/tur}
+\input{src/aze}
+
+%%% Mongolic
+\input{src/mon}
+
+%%% Afro-Asiatic: Semitic
+\input{src/ara}
+\input{src/heb}
+\input{src/mlt}
+
+%%% Afro-Asiatic: Chadic and Cushitic
+\input{src/hau}
+\input{src/som}
+
+%%% Niger-Congo
+\input{src/swa}
+\input{src/zul}
+\input{src/xho}
+\input{src/yor}
+\input{src/ibo}
+
+%%% Kartvelian
+\input{src/kat}
+
+%%% Language isolate: Basque
+\input{src/eus}
+
+%%% Sino-Tibetan
+\cjkbreak\input{src/zho}
+\cjkbreak\input{src/lzh}
+\cjknobreak
+
+%%% Japonic
+\cjkbreak\input{src/jpn}
+\cjknobreak
+
+%%% Koreanic
+\cjkbreak\input{src/kor}
+\cjknobreak
+
+%%% Kra-Dai
+\cjkbreak\input{src/tha}
+\cjknobreak
+
+%%% Austroasiatic
+\input{src/vie}
+
+%%% Austronesian
+\input{src/ind}
+\input{src/msa}
+\input{src/fil}
+
+%%% Austronesian: Polynesian
+\input{src/mri}
+\input{src/haw}
+\input{src/smo}
+\input{src/ton}
+\input{src/fij}
+\input{src/tah}
+
+%%% Indigenous American
+\input{src/nci}
+\input{src/que}
+\input{src/grn}
+\input{src/aym}
+
+%%% Constructed languages
+\input{src/epo}
+\input{src/ina}
+\input{src/ido}
+\input{src/vol}
+\input{src/ile}
+\input{src/lfn}
+\input{src/jbo}
+\input{src/tok/latin}
+\input{src/tok/sitelen}
+
+%%% Fictional languages
+\input{src/qya}
+\input{src/sjn}
+\input{src/tlh}
+\input{src/art-x-navi}
+\input{src/art-x-dothraki}
+\input{src/art-x-valyrian}
+
 \end{document}
