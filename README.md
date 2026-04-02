@@ -57,4 +57,4 @@ nix develop    # enter devShell with texlive scheme-full
 make           # build YIT.pdf
 ```
 
-The main font is [Quivira](http://www.quivira-font.com/) (`fonts/Quivira.otf`), covering a large slice of the Unicode character map. Additional system fonts are used for CJK, RTL, Indic, Thai, and Georgian scripts — see the preamble of `YIT.tex` for the full list.
+Fonts are from the [Noto](https://fonts.google.com/noto) family (OFL-licensed). Run `make fonts` to download them, or just `make` which fetches them automatically before building. See `fonts/Makefile` for pinned versions.

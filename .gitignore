@@ -330,3 +330,7 @@ TSWLatexianTemp*
 #==[ Python.gitignore ]=================
 
 __pycache__/
+
+#==[ Downloaded fonts ]=================
+
+fonts/Noto*
