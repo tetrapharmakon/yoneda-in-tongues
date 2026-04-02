@@ -1,5 +1,7 @@
 # yoneda-in-tongues
 
+[![Living languages](https://img.shields.io/badge/Living_languages-93-green)](INDEX.md) [![Historical languages](https://img.shields.io/badge/Historical_languages-8-orange)](INDEX.md) [![Ancient languages](https://img.shields.io/badge/Ancient_languages-0-red)](INDEX.md) [![Extinct languages](https://img.shields.io/badge/Extinct_languages-0-black)](INDEX.md) [![Constructed languages](https://img.shields.io/badge/Constructed_languages-14-blue)](INDEX.md)
+
 State the [Yoneda lemma](https://ncatlab.org/nlab/show/Yoneda+lemma) in every language.
 
 Contribute, acknowledge yourself, sign your translation (and provide, if you want, a proof of your knowledge of the language you write in!).
@@ -48,7 +50,7 @@ Many translations were machine-generated and have an empty `% contributors:` fie
 
 ## Building
 
-The project uses XeLaTeX. With [Nix](https://nixos.org/):
+The project uses XeLaTeX. If you have `latexmk` and a full TeX Live installation, just run `make`. With [Nix](https://nixos.org/):
 
 ```sh
 nix develop    # enter devShell with texlive scheme-full

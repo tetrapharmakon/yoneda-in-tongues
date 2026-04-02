@@ -15,7 +15,7 @@
         tex = pkgs.texlive.combined.scheme-full;
       in {
         devShells.default = pkgs.mkShell {
-          buildInputs = [tex];
+          buildInputs = [tex pkgs.uv];
         };
       }
     );
