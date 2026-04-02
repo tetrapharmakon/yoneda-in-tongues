@@ -7,7 +7,7 @@
 \def\faire{\todo[inline]{TODO!}}
 
 \newcommand{\tran}[3]{%
-	\noindent\textsf{#1:} (#2). #3%
+	\noindent\textbf{#1:} (#2). #3%
 	\medskip\newline
 }
 % easy as pie:
@@ -16,8 +16,21 @@
 % #3: statement of the lemma
 
 \setmainfont{Quivira.otf}[Path=fonts/]
+\setsansfont{Quivira.otf}[Path=fonts/]
 \newfontfamily{\tp}{linja-pona-4.9.otf}[Path=fonts/]
+\newfontfamily{\jpfont}{Hiragino Mincho ProN}
+\newfontfamily{\zhfont}{Heiti SC}
+\newfontfamily{\kofont}{Apple SD Gothic Neo}
+\newfontfamily{\arfont}{Geeza Pro}
+\newfontfamily{\hefont}{Arial Hebrew}
+\newfontfamily{\hifont}{Devanagari MT}
+\newfontfamily{\thfont}{Ayuthaya}
+\newfontfamily{\kafont}{.SF Georgian}
 
+\newcommand{\cjkbreak}{\XeTeXlinebreaklocale "zh"\XeTeXlinebreakskip=0pt plus 1pt\XeTeXlinebreakpenalty=0 }
+\newcommand{\cjknobreak}{\XeTeXlinebreaklocale ""}
+
+\emergencystretch=3em
 \begin{document}
 \begin{center}
 Yoneda lemma \\
@@ -30,23 +43,174 @@ in every language
 
 %%% Indo-European: Italic / Romance
 \input{src/lat}
+\input{src/ita}
 \input{src/fra}
+\input{src/spa}
+\input{src/por}
+\input{src/cat}
+\input{src/glg}
+\input{src/oci}
+\input{src/ron}
 \input{src/vec}
 \input{src/scn}
 \input{src/lij}
 \input{src/nap}
+\input{src/srd}
+\input{src/cos}
+\input{src/arg}
+\input{src/ast}
+\input{src/pms}
+\input{src/fur}
+\input{src/roh}
+\input{src/wln}
+\input{src/lad}
 
 %%% Indo-European: Germanic
-\input{src/eng-simple}
 \input{src/eng}
+\input{src/sco}
+\input{src/deu}
+\input{src/ltz}
+\input{src/nds}
+\input{src/nld}
+\input{src/afr}
+\input{src/fry}
+\input{src/swe}
+\input{src/nob}
+\input{src/dan}
+\input{src/isl}
+\input{src/fao}
+\input{src/ang}
+\input{src/non}
+\input{src/got}
+
+%%% Indo-European: Celtic
+\input{src/gle}
+\input{src/gla}
+\input{src/cym}
+\input{src/bre}
+
+%%% Indo-European: Slavic
+\input{src/rus}
+\input{src/ukr}
+\input{src/bel}
+\input{src/pol}
+\input{src/ces}
+\input{src/slk}
+\input{src/hsb}
+\input{src/csb}
+\input{src/slv}
+\input{src/hrv}
+\input{src/srp}
+\input{src/bul}
+\input{src/mkd}
+
+%%% Indo-European: Baltic
+\input{src/lit}
+\input{src/lav}
+
+%%% Indo-European: Hellenic
+\input{src/ell}
+\input{src/grc}
+
+%%% Indo-European: Albanian
+\input{src/sqi}
+
+%%% Indo-European: Indo-Iranian
+\input{src/hin}
+\input{src/san}
+\input{src/fas}
+\input{src/tgk}
 
 %%% Uralic
 \input{src/fin}
 \input{src/est}
+\input{src/hun}
+
+%%% Turkic
+\input{src/tur}
+\input{src/aze}
+
+%%% Mongolic
+\input{src/mon}
+
+%%% Afro-Asiatic: Semitic
+\input{src/ara}
+\input{src/heb}
+\input{src/mlt}
+
+%%% Afro-Asiatic: Chadic and Cushitic
+\input{src/hau}
+\input{src/som}
+
+%%% Niger-Congo
+\input{src/swa}
+\input{src/zul}
+\input{src/xho}
+\input{src/yor}
+\input{src/ibo}
+
+%%% Kartvelian
+\input{src/kat}
+
+%%% Language isolate: Basque
+\input{src/eus}
+
+%%% Sino-Tibetan
+\cjkbreak\input{src/zho}
+\cjkbreak\input{src/lzh}
+\cjknobreak
+
+%%% Japonic
+\cjkbreak\input{src/jpn}
+\cjknobreak
+
+%%% Koreanic
+\cjkbreak\input{src/kor}
+\cjknobreak
+
+%%% Kra-Dai
+\cjkbreak\input{src/tha}
+\cjknobreak
+
+%%% Austroasiatic
+\input{src/vie}
+
+%%% Austronesian
+\input{src/ind}
+\input{src/msa}
+\input{src/fil}
+
+%%% Austronesian: Polynesian
+\input{src/mri}
+\input{src/haw}
+\input{src/smo}
+\input{src/ton}
+\input{src/fij}
+\input{src/tah}
+
+%%% Indigenous American
+\input{src/nah}
+\input{src/que}
+\input{src/grn}
+\input{src/aym}
 
 %%% Constructed languages
 \input{src/epo}
+\input{src/ina}
+\input{src/ido}
+\input{src/vol}
+\input{src/ile}
+\input{src/lfn}
+\input{src/jbo}
 \input{src/tok/latin}
 \input{src/tok/sitelen}
+
+%%% Fictional languages
+\input{src/qya}
+\input{src/sjn}
+\input{src/tlh}
+\input{src/art-x-navi}
+\input{src/art-x-dothraki}
+\input{src/art-x-valyrian}
 
 \end{document}
